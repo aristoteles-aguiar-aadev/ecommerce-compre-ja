@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: #5D5D7D;
+    font-weight: 400;
+
+}
+
+.wrapper {
+    height: 110vh;
+    width: 100vw;
+
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    font-size: 70px;
+    line-height: 80px;
+    padding-left: 136px;
+    margin-top: 20%;
+
+}
+
+.container-left h1 {
+    font-size: 70px;
+    line-height: 80px;
+    width: 368px;
+
+}
+
+.container-left p {
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+    margin: 15px 0;
+    width: 540px;
+}
+
+
+
+.container-left button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.container-left button:hover {
+    opacity: 0.8;
+}
+
+.container-left button:active {
+    opacity: 0.5;
+}
+
+.container-right {
+    display: inline-block;
+    width: 40%;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    position: absolute;
+
+
+}
+
+.container-right a {
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    cursor: pointer;
+    margin-right: 41px;
+
+}
+
+.container-right a:hover {
+    opacity: 0.8;
+}
+
+.container-right a:active {
+    opacity: 0.4;
+}
+
+header {
+    margin: 59px 0 0 41px;
+}
+
+img {
+    position: relative;
+    top: 25%;
+    right: 130px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .container-left {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+
+    }
+
+    img {
+        position: static;
+
+    }
+
+    header {
+        display: none;
+    }
+
+    .container-left h1 {
+        font-size: 47px;
+        line-height: 52px;
+        width: auto;
+        margin: 115px 50px 0 50px;
+        text-align: center;
+    }
+
+    .container-left p {
+        margin: 33px 20px;
+        width: auto;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+
+    .container-left button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    img {
+        width: 90%;
+
+    }
+}
