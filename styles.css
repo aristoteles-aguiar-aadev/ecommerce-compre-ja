@@ -9,7 +9,7 @@
 }
 
 .wrapper {
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
 
 }
@@ -40,7 +40,6 @@
 }
 
 
-
 .container-left button {
     width: 269px;
     height: 62px;
@@ -67,8 +66,8 @@
 .container-right {
     display: inline-block;
     width: 40%;
-    background-color: rgba(93, 93, 125, 0.16);
-    height: 100vh;
+    background-color: rgba(173, 173, 234, 0.8);
+    height: 125vh;
     position: absolute;
 
 
@@ -80,6 +79,7 @@
     color: #5D5D7D;
     cursor: pointer;
     margin-right: 41px;
+    
 
 }
 
@@ -97,10 +97,12 @@ header {
 
 img {
     position: relative;
-    top: 25%;
+    top: 10%;
     right: 130px;
 
 }
+
+/* @media / fazendo com que a pagina fica responsiva */
 
 @media screen and (max-width: 900px) {
     .container-left {
@@ -113,7 +115,7 @@ img {
 
     .container-right {
         display: block;
-        height: auto;
+        height: 70vh;
         width: 100%;
         position: static;
         padding: 40px;
@@ -150,6 +152,7 @@ img {
     .container-left button {
         margin: 0 auto;
         display: block;
+       
     }
 
     img {
